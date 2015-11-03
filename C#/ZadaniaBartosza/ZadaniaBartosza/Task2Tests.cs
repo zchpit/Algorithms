@@ -14,7 +14,7 @@ namespace ZadaniaBartosza
 		[Test]
 		public void PrimeNumbers()
 		{
-			//results taken from https://pl.wikipedia.org/wiki/Silnia
+			//results taken from https://pl.wikipedia.org/wiki/Liczba_pierwsza
 			Assert.IsTrue(task.IsPrimeNumber (3));
 			Assert.IsTrue(task.IsPrimeNumber (5));
 			Assert.IsTrue(task.IsPrimeNumber (7));
@@ -25,7 +25,7 @@ namespace ZadaniaBartosza
 		[Test]
 		public void NotPrimeNumbers()
 		{
-			//results taken from https://pl.wikipedia.org/wiki/Silnia
+			//results taken from https://pl.wikipedia.org/wiki/Liczba_pierwsza
 			Assert.IsFalse(task.IsPrimeNumber (0));
 			Assert.IsFalse(task.IsPrimeNumber (1));
 			Assert.IsFalse(task.IsPrimeNumber (2));
