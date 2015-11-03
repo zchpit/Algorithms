@@ -2,6 +2,9 @@
 
 namespace ZadaniaBartosza
 {
+	/*
+    Napisz program, który obliczy oraz wyświetli !N (silnię) wybranej przez siebie liczby.
+	*/
 	public class Task1
 	{
 		public Task1 ()

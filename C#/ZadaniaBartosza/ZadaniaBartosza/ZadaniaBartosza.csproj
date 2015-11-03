@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{A40A9AD7-4AC3-4193-A755-8E6F66FF4032}</ProjectGuid>
+    <ProjectGuid>{2B0A67A9-D1A7-42F4-B2BF-CD5F045E6165}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>zadaniabartosza</RootNamespace>
-    <AssemblyName>zadaniabartosza</AssemblyName>
+    <RootNamespace>ZadaniaBartosza</RootNamespace>
+    <AssemblyName>ZadaniaBartosza</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,15 +34,14 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.extensions">
-      <HintPath>..\packages\NUnit.Extensions.2.6.0.0\lib\net40\nunit.extensions.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task1.cs" />
     <Compile Include="Task1Tests.cs" />
+    <Compile Include="Task2.cs" />
+    <Compile Include="Task2Tests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
