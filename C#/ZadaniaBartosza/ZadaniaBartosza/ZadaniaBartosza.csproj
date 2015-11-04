@@ -44,9 +44,12 @@
     <Compile Include="Task2Tests.cs" />
     <Compile Include="Task3.cs" />
     <Compile Include="Task3Tests.cs" />
+    <Compile Include="Task4.cs" />
+    <Compile Include="Task4Tests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="EmptyXmlFile.xml" />
   </ItemGroup>
 </Project>
