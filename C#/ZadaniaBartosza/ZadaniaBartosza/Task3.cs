@@ -11,15 +11,14 @@ namespace ZadaniaBartosza
 		public int GetSmallestCommonDivisor(int x, int y)
 		{
 			int dontExists = -1;
+			int smaller = x > y ? y : x;
 
-			for (int i = 2; i < Int32.MaxValue; i++) {
+			for (int i = smaller; i > 0; i--) {
 				int restX = x % i;
 				int restY = y % i;
 
 				if (restX == 0 && restY == 0)
-					return i;
-				if (i > x || i > y)
-					return dontExists;
+					return -1 * i;
 			}
 			return dontExists;
 		}

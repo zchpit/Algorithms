@@ -18,6 +18,9 @@ namespace ZadaniaBartosza
 			var result2 = task2.IsPrimeNumber(3);
 
 			Console.WriteLine ("Czy liczba 3 jest liczbą pierwszą? {0}", result2);
+
+			Task3 task3 = new Task3 ();
+			task3.GetSmallestCommonDivisor (2, 4);
 		}
 	}
 }
