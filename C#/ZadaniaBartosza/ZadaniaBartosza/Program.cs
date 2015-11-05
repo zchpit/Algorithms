@@ -23,6 +23,11 @@ namespace ZadaniaBartosza
 			var b = task4.Power (3, 5);
 			var c = task4.Power (3, -3);
 
+			var randomSortList = Task5.GetRandomSortList ();
+			foreach (var random in randomSortList) {
+				Console.WriteLine (random);
+			}
+			Console.ReadKey ();
 		}
 	}
 }
