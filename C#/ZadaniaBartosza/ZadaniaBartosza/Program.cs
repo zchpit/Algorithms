@@ -28,7 +28,15 @@ namespace ZadaniaBartosza
 				Console.WriteLine (random);
 			}
 
+			Task6 task61 = new Task6 ();
+			Task6 task62 = new Task6 ();
+			Task6 task63 = new Task6 ();
 
+			bool areEqual = false;
+			if (task61.PositionX == task62.PositionX && task62.PositionX == task63.PositionX &&
+				task61.PositionY == task62.PositionY && task62.PositionY == task63.PositionY) {
+				areEqual = true;
+			}
 			Console.ReadKey ();
 		}
 	}

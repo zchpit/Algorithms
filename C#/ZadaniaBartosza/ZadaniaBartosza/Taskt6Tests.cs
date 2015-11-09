@@ -56,16 +56,16 @@ namespace ZadaniaBartosza
 		[Test]
 		public void RandomPosition()
 		{
-			task = new Task6 ();
-			Task6 task2 = new Task6 ();
-			Task6 task3 = new Task6 ();
+			Task6 task61 = new Task6 ();
+			Task6 task62 = new Task6 ();
+			Task6 task63 = new Task6 ();
 
 			bool areEqual = false;
-			if (task.PositionX == task.PositionX && task2.PositionX == task3.PositionX &&
-				task.PositionY == task.PositionY && task2.PositionY == task3.PositionY)
+			if (task61.PositionX == task62.PositionX && task62.PositionX == task63.PositionX &&
+				task61.PositionY == task62.PositionY && task62.PositionY == task63.PositionY) {
 				areEqual = true;
-			
-			Assert.True (areEqual);
+			}
+			Assert.IsFalse (areEqual);
 		}
 		[Test] 
 		[TestCase(0, Result = "1")]
