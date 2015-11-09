@@ -34,6 +34,7 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -47,6 +48,8 @@
     <Compile Include="Task4.cs" />
     <Compile Include="Task4Tests.cs" />
     <Compile Include="Task5.cs" />
+    <Compile Include="Task6.cs" />
+    <Compile Include="Taskt6Tests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

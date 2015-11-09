@@ -27,6 +27,8 @@ namespace ZadaniaBartosza
 			foreach (var random in randomSortList) {
 				Console.WriteLine (random);
 			}
+
+
 			Console.ReadKey ();
 		}
 	}
